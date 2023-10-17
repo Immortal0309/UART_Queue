@@ -4,6 +4,7 @@
 
 #include "UARTx.h"
 
+```
 // 串口循环队列接收缓冲区
 static uint8_t UART_buff[10];
 
@@ -24,8 +25,9 @@ int main(void)
   }
   return 0;
 }
+```
 
--------------------------------------------
+```
 uint8_t arr[] = "hello";
 int main(void)
 {
@@ -38,3 +40,4 @@ int main(void)
    
   return 0;
 }
+```
